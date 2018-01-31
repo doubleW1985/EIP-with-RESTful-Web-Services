@@ -1,0 +1,38 @@
+.inline {
+    /*background: yellow; */
+    text-align: justify;
+    
+     /* IE special */  
+    width: 100%;  
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.inline:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: sub;
+    /*     margin-bottom: 1em;  */
+    
+    /* ie 7*/ 
+    *display: inline;
+    *zoom: 1;
+    *text-align: left; 
+}
+
+.right {
+    display: inline-block;
+    vertical-align: -10px; 
+    
+    /* ie 7*/
+    *display: inline;
+    *zoom: 1;
+    *text-align: right;
+}
