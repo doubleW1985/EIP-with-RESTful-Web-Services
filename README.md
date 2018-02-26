@@ -1,4 +1,4 @@
-## EIP
+## EIP with RESTful Web Services
 
 * /WebContent/D2_EIP02.jsp
   <br>
