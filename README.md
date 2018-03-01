@@ -1,7 +1,7 @@
 ## EIP with RESTful Web Services
 
-* /WebContent/D2_EIP02.jsp
-  <br>
+* [/WebContent/D2_EIP02.jsp](https://github.com/doubleW1985/EIP-with-RESTful-Web-Services/blob/master/EIP/WebContent/D2_EIP02.jsp)
+  <br>
   **Sales Order Form with RESTful Web Services(Http GET Method)**
   <br>
   在`REST`的軟體架構風格下，以開源軟體[Jersey](https://jersey.github.io/index.html)，實作「Employees」、「Customers」與「Products」的`RESTful Web Services`，並以`JSON`為資料傳遞格式；
